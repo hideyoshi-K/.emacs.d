@@ -16,6 +16,6 @@ emacs.d
 ### install packages
 | package | summary |
 | --- | --- |
-| doom-theme | カラーテーマ |
+| zenburn-theme | カラーテーマ |
 | doom-modeline | 良い感じモードライン | 
 | ivy-mode | 補完 |
