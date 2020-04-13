@@ -12,5 +12,5 @@ emacs.d
 ### install packages
 | package | summary |
 | --- | --- |
-| | |
-| | | 
+| doom-theme | カラーテーマ |
+| doom-modeline | 良い感じモードライン | 
