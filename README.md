@@ -14,3 +14,4 @@ emacs.d
 | --- | --- |
 | doom-theme | カラーテーマ |
 | doom-modeline | 良い感じモードライン | 
+| ivy-mode | 補完 |
