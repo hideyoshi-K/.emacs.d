@@ -8,6 +8,8 @@ emacs.d
 * disable menu, tool bar
 * disable backup-file
 * disable auto-save-file
+* enable line number
+* indent when entering
 
 ### install packages
 | package | summary |

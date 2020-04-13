@@ -28,3 +28,10 @@
 
 ;; disable bell
 (setq ring-bell-function 'ignore)
+
+;; enable line number
+(global-linum-mode t)
+(setq linum-format "%d ")
+
+;; indent when entering
+(electric-indent-mode t)
