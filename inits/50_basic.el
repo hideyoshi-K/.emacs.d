@@ -39,5 +39,6 @@
 ;; highlight
 ;; line
 (global-hl-line-mode t)
+(set-face-background 'hl-line "color-240")
 ;; parentheses
 (show-paren-mode t)
