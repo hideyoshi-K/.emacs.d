@@ -35,3 +35,12 @@
 
 ;; indent when entering
 (electric-indent-mode t)
+
+;; highlight
+;; line
+(global-hl-line-mode t)
+(custom-set-faces
+ '(hl-line ((t (:background "gray"))))
+ )
+;; parentheses
+(show-paren-mode t)

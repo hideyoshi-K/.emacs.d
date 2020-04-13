@@ -10,6 +10,8 @@ emacs.d
 * disable auto-save-file
 * enable line number
 * indent when entering
+* highlight line
+* highlight parentheses
 
 ### install packages
 | package | summary |
