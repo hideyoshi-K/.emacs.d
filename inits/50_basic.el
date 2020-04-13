@@ -25,3 +25,6 @@
 (setq make-backup-files nil)
 ;; オートセーブファイルを作らない
 (setq auto-save-default nil)
+
+;; disable bell
+(setq ring-bell-function 'ignore)
