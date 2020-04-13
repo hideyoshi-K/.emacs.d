@@ -1,6 +1,6 @@
 emacs.d
 ---
-## install package
+### install packages
 | package | summary |
 | --- | --- |
 | | |
