@@ -11,14 +11,12 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(doom-themes-enable-bold t)
- '(doom-themes-enable-italic t)
  '(package-selected-packages
    (quote
-    (counsel doom-modeline doom-themes use-package init-loader))))
+    (zenburn-theme use-package init-loader doom-themes doom-modeline counsel))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(doom-modeline-bar ((t (:background "#6272a4")))))
+ '(hl-line ((t (:background "gray")))))
