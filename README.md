@@ -12,6 +12,8 @@ emacs.d
 * indent when entering
 * highlight line
 * highlight parentheses
+* auto insert parentheses
+* display time
 
 ### install packages
 | package | summary |

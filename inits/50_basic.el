@@ -42,3 +42,10 @@
 (set-face-background 'hl-line "color-240")
 ;; parentheses
 (show-paren-mode t)
+
+;; auto insert parentheses
+(electric-pair-mode t)
+
+;; display time
+(display-time-mode t)
+
