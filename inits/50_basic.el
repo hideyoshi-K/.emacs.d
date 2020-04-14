@@ -48,4 +48,3 @@
 
 ;; display time
 (display-time-mode t)
-
