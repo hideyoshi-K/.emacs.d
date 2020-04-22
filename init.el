@@ -13,7 +13,7 @@
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
    (quote
-    (zenburn-theme use-package init-loader doom-themes doom-modeline counsel))))
+    (all-the-icons zenburn-theme use-package init-loader doom-themes doom-modeline counsel))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

@@ -13,3 +13,8 @@
   (doom-modeline-def-modeline 'main
     '(bar window-number matches buffer-info remote-host buffer-position parrot selection-info)
     '(misc-info persp-name lsp github debug minor-modes input-method major-mode process vcs checker)))
+
+;; icons
+(use-package all-the-icons)
+(add-to-list 'load-path "~/.emacs.d/submodules/all-the-icons-dired")
+(load "all-the-icons-dired.el")

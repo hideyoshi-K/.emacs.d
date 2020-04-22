@@ -1,0 +1,3 @@
+[submodule "submodules/all-the-icons-dired"]
+	path = submodules/all-the-icons-dired
+	url = git@github.com:jtbm37/all-the-icons-dired.git
