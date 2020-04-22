@@ -23,3 +23,6 @@
 (add-to-list 'load-path "~/.emacs.d/submodules/all-the-icons-ivy")
 (load "all-the-icons-ivy.el")
 (all-the-icons-ivy-setup)
+
+;; nyan-mode
+(nyan-mode 1)

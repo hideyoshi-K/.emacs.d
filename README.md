@@ -21,3 +21,5 @@ emacs.d
 | zenburn-theme | カラーテーマ |
 | doom-modeline | 良い感じモードライン | 
 | ivy-mode | 補完 |
+| all-the-icons | アイコン |
+| nyan-mode | 猫 | 
