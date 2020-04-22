@@ -16,5 +16,10 @@
 
 ;; icons
 (use-package all-the-icons)
+;; icons-dired
 (add-to-list 'load-path "~/.emacs.d/submodules/all-the-icons-dired")
 (load "all-the-icons-dired.el")
+;; icons-ivy
+(add-to-list 'load-path "~/.emacs.d/submodules/all-the-icons-ivy")
+(load "all-the-icons-ivy.el")
+(all-the-icons-ivy-setup)
