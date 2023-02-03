@@ -1,9 +1,10 @@
 (package-initialize)
 (setq package-archives
-      '(("gnu" . "http://elpa.gnu.org/packages/")
-        ("melpa" . "http://melpa.org/packages/")
-        ("org" . "http://orgmode.org/elpa/")))
+      '(("gnu" . "https://elpa.gnu.org/packages/")
+        ("melpa" . "https://melpa.org/packages/")
+        ("org" . "https://orgmode.org/elpa/")))
 (require 'use-package)
+(package-initialize)
 
 (init-loader-load)
 (custom-set-variables
@@ -13,7 +14,7 @@
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
    (quote
-    (cmake-mode nyan-mode all-the-icons zenburn-theme use-package init-loader doom-themes doom-modeline counsel))))
+    (gnu-elpa-keyring-update magit cmake-mode nyan-mode all-the-icons zenburn-theme use-package init-loader doom-themes doom-modeline counsel))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
