@@ -48,3 +48,12 @@
 
 ;; display time
 (display-time-mode t)
+
+;; git
+(defalias 'magit 'magit-status)
+(global-set-key "\C-xg" 'magit-status)
+(setenv "GIT_EDITOR" "emacsclient")
+(add-hook 'shell-mode-hook 'with-editor-export-git-editor)
+
+;; server-mode
+(server-mode)

@@ -4,7 +4,7 @@
 (add-to-list 'load-path (directory-file-name (or (file-name-directory #$) (car load-path))))
 
 ;;;### (autoloads nil "gnu-elpa-keyring-update" "gnu-elpa-keyring-update.el"
-;;;;;;  (25564 38380 677750 776000))
+;;;;;;  (25597 38043 758996 278000))
 ;;; Generated autoloads from gnu-elpa-keyring-update.el
 
 (defvar gnu-elpa-keyring-update--keyring (expand-file-name "etc/gnu-elpa.gpg-keyring" (file-name-directory (or (if (fboundp 'macroexp-file-name) (macroexp-file-name) load-file-name) ""))))
@@ -29,8 +29,8 @@ Import new GNU ELPA keys (if any) into package.el's keyring.
 
 ;;;***
 
-;;;### (autoloads nil nil ("gnu-elpa-keyring-update-pkg.el") (25564
-;;;;;;  38380 645749 800000))
+;;;### (autoloads nil nil ("gnu-elpa-keyring-update-pkg.el") (25597
+;;;;;;  38043 722995 251000))
 
 ;;;***
 
